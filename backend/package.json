@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "better-sqlite3": "^9.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "geoip-lite": "^1.4.7",
+    "helmet": "^7.1.0",
+    "nanoid": "^5.0.7"
+  }
+}
